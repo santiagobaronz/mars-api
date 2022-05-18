@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Rovers Photographies</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="dist/flexboxgrid.min.css" />
+</head>
+<body id="body">
+    <div class="main-content">
+        <div class="menu-section">
+            <h1>Mars Rovers Photographies</h1>
+            <p class="intro-text">
+                On this website you can find photos of rovers on Mars. It uses NASA 
+                Apis to show you all the details about the rovers, including their 
+                images. Some dates has not results so try one day before or after. 
+                Use the following options to filter your search.
+            </p>
+            <div class="filter-section">
+                <form id="form">
+                    <div class="rover-selection">
+                        <label for="rover_perseverance"><p class="active" id="perseverance"><input checked type="radio" name="radio-option" value="perseverance"  id="rover_perseverance">Perseverance</p></label>
+                        <label for="rover_curiosity"><p id="curiosity"><input type="radio" name="radio-option" value="curiosity" id="rover_curiosity">Curiosity</p></label>
+                    </div>
+                    <div class="date-selection">
+                        <input type="date" name="date" id="date" max="today">
+                    </div>
+                    <div class="pov-selection">
+                        <select name="pov-select-perseverance" id="pov-select-perseverance">
+                            <option value="all">Select the POV</option>
+                            <option value="all">All the cameras</option>
+                            <option value="navcam_left">Navigation Camera - Left</option>
+                            <option value="navcam_right">Navigation Camera - Right</option>
+                            <option value="mcz_right">Mast Camera Zoom - Right</option>
+                            <option value="mcz_left">Mast Camera Zoom - Left</option>
+                            <option value="front_hazcam_left_a">Front Hazard Avoidance Camera - Left</option>
+                            <option value="front_hazcam_right_a">Front Hazard Avoidance Camera - Right</option>
+                            <option value="rear_hazcam_left">Rear Hazard Avoidance Camera - Left</option>
+                            <option value="rear_hazcam_right">Rear Hazard Avoidance Camera - Right</option>
+                            <option value="supercam_rmi">SuperCam Remote Micro Imager</option>
+                            <option value="rear_hazcam_right">Rear Hazard Avoidance Camera - Right</option>
+                        </select>
+                        <select name="pov-select-curiosity" id="pov-select-curiosity">
+                            <option value="all">Select the POV</option>
+                            <option value="all">All the cameras</option>
+                            <option value="fhaz">Front Hazard Avoidance Camera</option>
+                            <option value="rhaz">Rear Hazard Avoidance Camera</option>
+                            <option value="mast">Mast Camera</option>
+                            <option value="chemcam">Chemistry and Camera Complex</option>
+                            <option value="mahli">Mars Hand Lens Imager</option>
+                            <option value="mardi">Mars Descent Imager</option>
+                            <option value="navcam">Navigation Camera</option>
+                            <option value="pancam">Panoramic Camera</option>
+                        </select>
+                        <div class="arrow">
+                            <label for="pov-select">
+                                <img src="https://1.bp.blogspot.com/-kjKb_TRfNRI/Vn_q0Fk0YsI/AAAAAAAARFg/bNGN-u8XB_Q/s800-Ic42/down.png" alt="">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="find-button" id="btn-submit">
+                        <label for="btn-submit"><img src="assets/lupa.png" class="find-img"></label>
+                        <input type="submit" value=""></input>
+                    </div>
+                </form>
+            </div>
+            <div class="number-of-results" id="search-result-box">
+                <p id="search-result"></p>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <div class="column" id="column1">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <div class="column"id="column2">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <div class="column" id="column3"></div>
+                    </div>
+                </div>
+
+        </div>
+        <div class="go-up" id="btn-go-up">
+<img src="https://1.bp.blogspot.com/-kjKb_TRfNRI/Vn_q0Fk0YsI/AAAAAAAARFg/bNGN-u8XB_Q/s800-Ic42/down.png" alt="">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
