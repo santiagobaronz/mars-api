@@ -1,6 +1,6 @@
-# 📷 Mars Rovers Photographies
+# 📝 Nickname Generator
 
-Project that integrates the NASA API to search for images of Mars through the different rovers (Only works with Curiosity and Perseverance)
+The Training Request System is a website derived from Ivao Ecuador that provides a tool to schedule new training for pilots or air traffic controllers.
 
 ## Table of Contents 📋
 - General Info
@@ -15,13 +15,20 @@ Project that integrates the NASA API to search for images of Mars through the di
 
 ## General Information 🙋‍♂️
 
-The project was completed in 2 days approximately. I used the IDE "Visual Studio Code" to write. The project has 4 folders (assets, css, dist, js) and also the index file.
+The project was completed in 1 week approximately. I used the IDE "Visual Studio Code" to write. The project has 5 folders (assets, css, dist, js and php) and also the index file.
+
+## Preview project 📸
+![](https://raw.githubusercontent.com/Santiago-Baron-Zuleta/mars-api/master/assets/preview_1.JPG)
+
+-------------------------------------
+![](https://raw.githubusercontent.com/Santiago-Baron-Zuleta/mars-api/master/assets/preview_2.JPG)
 
 ## Technologies ⚙️
 
 - HTML5
 - CSS3
 - JavaScript Vanilla
+- PHP
 - Flexbox Grid
 
 ## Installation 💻💡
@@ -35,7 +42,7 @@ To install the project on your computer, you can use the "Code" button and follo
 - Write ``` git clone ``` and paste the url. As follows:
 
 ``` 
-git clone https://github.com/Santiago-Baron-Zuleta/mars-api.git
+git clone https://github.com/Santiago-Baron-Zuleta/training-request-system.git
 ```
 
 ### 2️⃣ Download ZIP
