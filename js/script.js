@@ -99,7 +99,6 @@
                         columnOne.innerHTML = "";
                         columnTwo.innerHTML = "";
                         columnThree.innerHTML = "";
-                        body.style.margin = "80px 150px"
 
                         searchResultNumber.innerHTML = "Showing "+ dataRows +" results in this search"
 
@@ -165,7 +164,7 @@
         let scrollY = this.scrollY;
         var screenHeight = screen.height;
 
-        if(scrollY > (screenHeight/2)){
+        if(scrollY > (screenHeight + (screenHeight/2))){
             buttonGoUp.style.opacity = "1";
         }else{
             buttonGoUp.style.opacity = "0";

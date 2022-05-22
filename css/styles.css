@@ -167,3 +167,113 @@ select::-ms-expand {
 	text-align: center;
 	margin: 50px 0px 30px 0px;
 }
+@media only screen and (max-width: 1440px){
+	.pov-selection{
+		margin-top: 30px;
+	}
+
+	.column-element{
+		margin: 15px 0;
+	}
+}
+@media only screen and (max-width: 1024px){
+	.intro-text{
+		margin: 50px 20px;
+	}
+	body{
+		margin: 15vh 100px 15vh;
+	}
+	.rover-selection p:first-child {
+		margin-right: 15px;
+	}
+	.rover-selection p:first-child {
+    margin-right: 15px;
+	}
+	.rover-selection p{
+		padding: 25px 40px;
+	}
+	#perseverance{
+		margin-left: 25px;
+	}
+	.pov-selection select{
+		margin-left: 30px;
+	}
+	.column-element{
+		margin: 25px 0;
+	}
+	.go-up{
+		bottom: 20px;
+    	right: 20px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.rover-selection p{
+		padding: 25px 60px;
+	}
+	input[type="date"]{
+		margin-top: 30px;
+		width: 65%;
+		margin-left: 30px;
+	}
+	.date-selection{
+		display: block;
+		margin-left: 0;
+	}
+	.pov-selection select{
+		margin-left: 30px;
+		padding: 25px 35px;
+	}
+	.find-button{
+		width: 50%;
+    	margin: 30px 0;
+	}
+}
+@media only screen and (max-width: 425px){
+	body{
+		margin: 15vh 50px 15vh;
+	}
+	.menu-section h1{
+		font-size: 35px;
+	}
+	.intro-text{
+		margin: 30px 20px;
+		font-size: 18px;
+	}
+	.filter-section{
+		margin-top: 50px;
+	}
+	#curiosity{
+		margin-left: 25px;
+		margin-top: 15px;
+		padding: 25px 85px !important;
+	}
+	input[type="date"]{
+		width: auto;
+		padding: 22.5px 40px;
+	}
+	.pov-selection select{
+		width: 250px;
+	}
+}
+@media only screen and (max-width: 375px){
+	.rover-selection p{
+		padding: 25px 40px;
+	}
+	#curiosity{
+		padding: 25px 65px !important;
+	}
+	input[type="date"]{
+		padding: 22.5px 20px;
+	}
+	.pov-selection select{
+		width: 220px;
+		font-size: 18px;
+		padding: 25px 0px 25px 20px;
+	}
+}
+@media only screen and (max-width: 320px){
+	body{
+		margin: 15vh 20px;
+	}
+}
+
