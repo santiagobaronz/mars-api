@@ -3,7 +3,7 @@
 Project that integrates the NASA API to search for images of Mars through the different rovers (Only works with Curiosity and Perseverance)
 
 ``` 
-Project link: https://santiago-baron-zuleta.github.io/mars-api/
+Project link: https://santiagobaronz.github.io/mars-api/
 ```
 
 ## Table of Contents 📋
@@ -46,7 +46,7 @@ To install the project on your computer, you can use the "Code" button and follo
 - Write ``` git clone ``` and paste the url. As follows:
 
 ``` 
-git clone https://github.com/Santiago-Baron-Zuleta/training-request-system.git
+git clone https://github.com/santiagobaronz/mars-api.git
 ```
 
 ### 2️⃣ Download ZIP
