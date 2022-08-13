@@ -1,6 +1,6 @@
-# 📝 Nickname Generator
+# 📝 🌌 Mars API
 
-The Training Request System is a website derived from Ivao Ecuador that provides a tool to schedule new training for pilots or air traffic controllers.
+Project that integrates the NASA API to search for images of Mars through the different rovers (Only works with Curiosity and Perseverance)
 
 ``` 
 Project link: https://santiago-baron-zuleta.github.io/mars-api/
@@ -57,4 +57,4 @@ git clone https://github.com/Santiago-Baron-Zuleta/training-request-system.git
 
 ## Authors 🦸‍♀️
 
-- Santiago Baron Zuleta - *Project creator* [Santiago-Baron-Zuleta](https://github.com/Santiago-Baron-Zuleta)
+- Santiago Baron Zuleta - *Project creator* [Santiago Baron Zuleta](https://github.com/santiagobaronz)
