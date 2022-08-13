@@ -43,6 +43,10 @@
 
     submitButton.addEventListener("click", function(e){
 
+        columnOne.innerHTML = "";
+        columnTwo.innerHTML = "";
+        columnThree.innerHTML = "";
+
         e.preventDefault();
 
         var data = new FormData(form);
@@ -148,11 +152,12 @@
                                 }
                             }
                         }
+                    }else{
+                        searchResultBox.style.display = "block";
+                        searchResultNumber.innerHTML = "There are no results for this date or this POV";
                     }
-
-                    console.clear();
-
-                })
+                console.clear();
+            })
         }
     })
 
