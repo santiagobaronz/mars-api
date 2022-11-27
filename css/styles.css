@@ -151,6 +151,8 @@ select::-ms-expand {
 
 .activeImg > img{
 	display: block;
+	max-width: 900px;
+	max-height: 800px;
 	width: 100%;
 	height: 100%;
 	border-radius: 10px;
