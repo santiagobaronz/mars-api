@@ -39,6 +39,9 @@
     const columnOne = document.getElementById("column1");
     const columnTwo = document.getElementById("column2");
     const columnThree = document.getElementById("column3");
+    const popUpImg = document.getElementById("popUpImg");
+
+    console.log(popUpImg)
 
 
     submitButton.addEventListener("click", function(e){
@@ -107,7 +110,17 @@
                         searchResultNumber.innerHTML = "Showing "+ dataRows +" results in this search"
 
                         // Start putting the results into columns.
-                        
+
+                        window.addEventListener("click", (event) => {
+                            const item = document.querySelector(".activeImg");
+                            if(item != null){
+                                if(!item.contains(event.target)){
+                                    item.classList.remove("activeImg");
+                                    popUpImg.classList.remove("popUpImgActive");
+                                }
+                            }
+                        }) 
+
                         for (let i = 0; i < dataRows; i++) {
 
                             // First column
@@ -117,6 +130,12 @@
                                 div.className = "column-element";
                                 let img = document.createElement("img");
                                 img.src = roverData.photos[i].img_src;
+
+                                img.addEventListener("click", () => {
+                                    img.parentNode.classList.add("activeImg");
+                                    popUpImg.classList.add("popUpImgActive");
+                                })
+
                                 img.className = "img-column";
 
                                 columnOne.appendChild(div).appendChild(img);
@@ -132,6 +151,10 @@
                                 let img2 = document.createElement("img");
                                 div2.className = "column-element";
                                 img2.src = roverData.photos[i].img_src;
+                                img2.addEventListener("click", () => {
+                                    img2.parentNode.classList.add("activeImg");
+                                    popUpImg.classList.add("popUpImgActive");
+                                })
                                 img2.className = "img-column";
                                 
                                 columnTwo.appendChild(div2).appendChild(img2);
@@ -146,6 +169,10 @@
                                     let img3 = document.createElement("img");
                                     div3.className = "column-element";
                                     img3.src = roverData.photos[i].img_src;
+                                    img3.addEventListener("click", () => {
+                                        img3.parentNode.classList.add("activeImg");
+                                        popUpImg.classList.add("popUpImgActive");
+                                    })
                                     img3.className = "img-column";
 
                                     columnThree.appendChild(div3).appendChild(img3);
