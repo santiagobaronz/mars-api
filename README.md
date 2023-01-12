@@ -32,7 +32,6 @@ The project was completed in 1 week approximately. I used the IDE "Visual Studio
 - HTML5
 - CSS3
 - JavaScript Vanilla
-- PHP
 - Flexbox Grid
 
 ## Installation 💻💡
