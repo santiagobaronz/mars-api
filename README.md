@@ -3,7 +3,7 @@
 Project that integrates the NASA API to search for images of Mars through the different rovers (Only works with Curiosity and Perseverance)
 
 ``` 
-Project link: https://santiagobaronz.github.io/mars-api/
+Project link: https://mars.santiagobaron.com
 ```
 
 ## Table of Contents 📋
