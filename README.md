@@ -33,6 +33,7 @@ The project was completed in 1 week approximately. I used the IDE "Visual Studio
 - CSS3
 - JavaScript Vanilla
 - Flexbox Grid
+- React (soon)
 
 ## Installation 💻💡
 
